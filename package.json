@@ -1,0 +1,17 @@
+{
+  "name": "cypress-deptagency-qa-assessment",
+  "private": true,
+  "scripts": {
+    "cypress:open-desktop": "cypress open --config-file=cypress.desktop.json",
+    "cypress:open-mobile": "cypress open --config-file=cypress.mobile.json",
+    "cypress:run-desktop": "cypress run --config-file=cypress.desktop.json",
+    "cypress:run-mobile": "cypress run --config-file=cypress.mobile.json"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "8.0.2",
+    "cypress": "9.0.0",
+    "cypress-browser-permissions": "1.1.0",
+    "cypress-file-upload": "5.0.8",
+    "cypress-mochawesome-reporter": "2.3.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "viewportWidth": 1280,
+  "viewportHeight": 1024,
+  "pageLoadTimeout": 10000,
+  "defaultCommandTimeout": 10000,
+  "reporter": "cypress-mochawesome-reporter"
+}
